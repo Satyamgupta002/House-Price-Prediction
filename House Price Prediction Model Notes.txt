@@ -1,0 +1,7 @@
+House Price Prediction Model:
+
+1. load the data and check head and tail to see any trend of increasing or decreasing parameters --> no trend
+2. see the info to check if it has any missing values of any parameters in between --> total bedrooms has some missing values
+3. here median_house_value is our label and all others are features.
+4. by .value_counts on a column of dataframe we can get the count of values present --> like <1H ocean has more house and ISLAND have only 5
+5. by describe method we can see that some columns have more std deviation and some has less 
